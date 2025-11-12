@@ -1,0 +1,44 @@
+// Test Case 1: Single element
+1
+-5
+Expected: 0
+
+// Test Case 2: Two elements
+2
+5 -3
+Expected: 5
+
+// Test Case 3: Three elements (odd size)
+3
+1 2 3
+Expected: 2
+
+// Test Case 4: All negative
+4
+-1 -2 -3 -4
+Expected: 0
+
+// Test Case 5: All zeros
+4
+0 0 0 0
+Expected: 0
+
+// Test Case 6: Mix of positive, negative, zero
+6
+5 -3 0 2 -1 4
+Expected: 9
+
+// Test Case 7: Same numbers
+4
+2 2 2 2
+Expected: 4
+
+// Test Case 8: Large numbers
+4
+1000000000 1000000000 -1000000000 -1000000000
+Expected: 2000000000
+
+// Test Case 9: Fewer positives than m
+5
+1 -1 -2 -3 -4
+Expected: 1

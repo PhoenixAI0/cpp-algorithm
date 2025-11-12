@@ -1,0 +1,6 @@
+CompileFlags:
+  Add:
+    - "-I/path/to/custom/include"
+    - "-I/another/include/dir"
+Diagnostics:
+  MissingIncludes: Strict
