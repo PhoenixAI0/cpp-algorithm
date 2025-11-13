@@ -1,2 +1,4 @@
 School/
 *.pdf
+a.out
+.DS_Store
