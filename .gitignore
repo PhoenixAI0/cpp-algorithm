@@ -1,4 +1,6 @@
 School/
 *.pdf
-a.out
+*/a.out
 .DS_Store
+*.txt
+

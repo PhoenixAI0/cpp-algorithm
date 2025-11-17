@@ -1,3 +1,4 @@
 CompileFlags:
   Add:
     - -I/Users/ruichen/custom-include
+  Add: [-std=c++20]
